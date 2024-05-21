@@ -1,0 +1,85 @@
+/* TodoList.css */
+
+.todo-app {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app h1 {
+    text-align: center;
+    color: #333;
+}
+
+.todo-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.todo-list th,
+.todo-list td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.todo-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.todo-item:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.todo-item:nth-child(odd) {
+    background-color: #fff;
+}
+
+.add-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-form input[type="text"],
+.add-form input[type="datetime-local"],
+.add-form button[type="submit"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-form button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
